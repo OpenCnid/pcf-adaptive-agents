@@ -144,7 +144,11 @@ parameterizing, the paper says so plainly, and replication across
 architectures is named as future work rather than hand-waved. What we'd most
 like to see next is SPARK stress-tested outside the café: the metaphor is
 charming, but the theory earns its keep the day the domain isn't simulatable
-at 250,000 rows per tier.
+at 250,000 rows per tier. Disclosure, because it's our whole thing: co-author
+Matthew Murphy is a friend and collaborator of the lab, and his Lexideck
+curriculum ancestors the meta-prompting protocols in our own toolchain —
+which is exactly why the tiers above were held to the same locator standard
+as every other note.
 
 # Provenance
 

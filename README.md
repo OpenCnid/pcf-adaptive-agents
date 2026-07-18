@@ -38,7 +38,8 @@ in one hop, and the *our take* section is the only place opinions are allowed
 
 ## 🏔️ Standing on the shoulders of giants
 
-The actual science here was done by **David Pearl**, **Matthew Murphy**, and
+The actual science here was done by **David Pearl**,
+**Matthew Murphy** ([@gusthemole](https://github.com/gusthemole)), and
 **James Intriligator** — Department of Mechanical Engineering, Tufts
 University, as printed on the paper. They built the framework, drafted topos
 theory into agent design, and ran over a million simulated meals so the rest
@@ -100,6 +101,13 @@ machine consumption.
 - **We will get things wrong.** When we do, the fix lands source-first and
   the correction is public history. If we've mangled this paper, open an
   issue — correcting the record *is* the project.
+- **Disclosure: we know one of these people.** Matthew Murphy
+  ([@gusthemole](https://github.com/gusthemole)) is a friend of the lab and a
+  collaborator on our current project, and his Lexideck prompt-engineering
+  curriculum is the direct ancestor of protocols wired into our own
+  toolchain. The note above was verified against the paper exactly like
+  every other note — friendship doesn't move the one-way rule — but you
+  deserve to know.
 - **A human and an AI wrote this repo together.** The human picked the paper;
   the AI kept adding citations. We disclose this because disclosure is sort
   of our whole thing.
