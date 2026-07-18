@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "updated": "2026-07-18",
+  "repo": "https://github.com/OpenCnid/pcf-adaptive-agents",
+  "notes": [
+    {
+      "id": "2025-polymorphic-combinatorial-frameworks",
+      "path": "density-chain.md",
+      "title": "Polymorphic Combinatorial Frameworks (PCF): Guiding the Design of Mathematically-Grounded, Adaptive AI Agents",
+      "authors": [
+        "David Pearl",
+        "Matthew Murphy",
+        "James Intriligator"
+      ],
+      "lab": "tufts",
+      "year": 2025,
+      "venue": "arXiv preprint (cs.AI; math.CO; stat.CO)",
+      "canonical": "https://arxiv.org/abs/2508.01581",
+      "published": null,
+      "pinned_version": "arXiv:2508.01581v1",
+      "pinned_date": "2025-08-03",
+      "source_license": "CC BY 4.0",
+      "date_summarized": "2026-07-18",
+      "verified_against_source": "2026-07-18",
+      "tier_budget_words": 150,
+      "tags": ["adaptive-agents", "agent-design", "meta-prompting", "topos-theory", "rough-fuzzy-sets", "monte-carlo", "llm"]
+    }
+  ]
+}

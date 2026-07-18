@@ -1,0 +1,51 @@
+<svg viewBox="0 0 880 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="pcf-adaptive-agents: five boxes labeled S, P, A, R, K — the five dimensions of an adaptive agent's parameter space">
+  <defs>
+    <linearGradient id="ramp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#9b8cf7"/>
+      <stop offset="100%" stop-color="#ef6fd0"/>
+    </linearGradient>
+  </defs>
+
+  <text x="440" y="48" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="32" font-weight="700" fill="url(#ramp)">pcf-adaptive-agents</text>
+  <text x="440" y="78" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="12.5" fill="#8b949e">five dimensions &#183; one agent &#183; 1.25 million simulated meals</text>
+
+  <!-- SPARK: the five-dimensional parameter space -->
+  <g font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-weight="700" font-size="34" text-anchor="middle">
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0s" fill="freeze"/>
+      <rect x="80" y="100" width="120" height="66" rx="10" fill="#58a6ff" fill-opacity="0.08" stroke="#58a6ff"/>
+      <text x="140" y="144" fill="#58a6ff">S</text>
+    </g>
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.4;1" dur="0.85s" begin="0s" fill="freeze"/>
+      <rect x="230" y="100" width="120" height="66" rx="10" fill="#799bfa" fill-opacity="0.08" stroke="#799bfa"/>
+      <text x="290" y="144" fill="#799bfa">P</text>
+    </g>
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.55;1" dur="1.2s" begin="0s" fill="freeze"/>
+      <rect x="380" y="100" width="120" height="66" rx="10" fill="#9b8cf7" fill-opacity="0.08" stroke="#9b8cf7"/>
+      <text x="440" y="144" fill="#9b8cf7">A</text>
+    </g>
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.65;1" dur="1.55s" begin="0s" fill="freeze"/>
+      <rect x="530" y="100" width="120" height="66" rx="10" fill="#c47bf3" fill-opacity="0.08" stroke="#c47bf3"/>
+      <text x="590" y="144" fill="#c47bf3">R</text>
+    </g>
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.72;1" dur="1.9s" begin="0s" fill="freeze"/>
+      <rect x="680" y="100" width="120" height="66" rx="10" fill="#ef6fd0" fill-opacity="0.08" stroke="#ef6fd0"/>
+      <text x="740" y="144" fill="#ef6fd0">K</text>
+    </g>
+  </g>
+
+  <g font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="11" fill="#8b949e" text-anchor="middle">
+    <text x="140" y="188">skills</text>
+    <text x="290" y="188">personalities</text>
+    <text x="440" y="188">approaches</text>
+    <text x="590" y="188">resources</text>
+    <text x="740" y="188">knowledge</text>
+  </g>
+
+  <text x="440" y="212" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="11" fill="#8b949e">an agent is a point in this space &#8212; adaptation is moving through it</text>
+</svg>
