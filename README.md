@@ -20,7 +20,7 @@
 > Skills, Personalities, Approaches, Resources, Knowledge — and adapting
 > meant moving through that space, with topos theory throwing out the
 > configurations that contradict themselves? Then it runs 1.25 million
-> simulated café meals to find out where that stops working. No paper is
+> simulated café meals to find out how far that scales. No paper is
 > hosted here; [the note](density-chain.md) is an original synthesis — our
 > words, their findings, a locator on every claim.
 
@@ -43,8 +43,8 @@ The actual science here was done by **David Pearl**,
 **James Intriligator** — Department of Mechanical Engineering, Tufts
 University, as printed on the paper. They built the framework, drafted topos
 theory into agent design, and ran over a million simulated meals so the rest
-of us could know where adaptability stops paying rent. We wrote a note about
-it. Those are very different jobs, and only one of them deserves your
+of us could know where added complexity stops paying rent. We wrote a note
+about it. Those are very different jobs, and only one of them deserves your
 citation.
 
 Do not cite "some repo on GitHub." Cite them — BibTeX below.
@@ -94,13 +94,24 @@ machine consumption.
 
 ## Honest notes
 
-- **Every number was studied at the source this session** — the ar5iv
-  rendering of v1, pinned in the note's provenance. Zero came from memory.
+- **Every number was studied at the source this session** — the arXiv v1 PDF,
+  pinned in the note's provenance. Zero came from memory.
 - **Summaries are lossy by construction.** The locators are the refund
   policy: any claim walks back to the paper in one hop.
 - **We will get things wrong.** When we do, the fix lands source-first and
   the correction is public history. If we've mangled this paper, open an
   issue — correcting the record *is* the project.
+- **We got things wrong, and here they are.** A re-verification on 2026-07-19
+  caught six errors in our own note, including the headline: all five tiers
+  had claimed adaptable agents beat static ones with a shrinking edge. The
+  paper reports no such comparison — it declares an adaptable/non-adaptable
+  condition (§2.2) and never contrasts them. What the 1.25 million runs
+  actually show is outcomes rising with café tier complexity and then
+  flattening. Two locators were wrong, a tier collapse was hidden behind
+  quoted endpoints, and the limitations list named one the authors never
+  claimed. All six are itemized in the note's
+  [provenance](density-chain.md#provenance). This is the one-way rule doing
+  its job, in public, which is the only way it means anything.
 - **Disclosure: we know one of these people.** Matthew Murphy
   ([@gusthemole](https://github.com/gusthemole)) is a friend of the lab and a
   collaborator on our current project, and his Lexideck prompt-engineering

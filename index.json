@@ -21,9 +21,9 @@
       "pinned_date": "2025-08-03",
       "source_license": "CC BY 4.0",
       "date_summarized": "2026-07-18",
-      "verified_against_source": "2026-07-18",
+      "verified_against_source": "2026-07-19",
       "tier_budget_words": 150,
-      "tags": ["adaptive-agents", "agent-design", "meta-prompting", "topos-theory", "rough-fuzzy-sets", "monte-carlo", "llm"]
+      "tags": ["adaptive-agents", "agent-design", "meta-prompting", "topos-theory", "sheaf-theory", "rough-fuzzy-sets", "monte-carlo", "llm"]
     }
   ]
 }
