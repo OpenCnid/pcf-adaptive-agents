@@ -5,7 +5,7 @@ venue: "arXiv preprint (cs.AI; math.CO; stat.CO), 2025"
 source: "https://arxiv.org/abs/2508.01581 (pinned: arXiv:2508.01581v1, 2025-08-03)"
 license: "CC BY 4.0"
 date_summarized: 2026-07-18
-verified_against_source: 2026-07-19
+verified_against_source: 2026-07-20
 tier_budget_words: 150
 tags: [adaptive-agents, agent-design, meta-prompting, topos-theory, sheaf-theory, rough-fuzzy-sets, monte-carlo, llm]
 entity_ledger:
@@ -362,12 +362,21 @@ and came back with corrections.
 - Released data: https://github.com/cadavid1/PCF (verified as the embedded
   hyperlink behind the Abstract's "See GitHub here")
 - Earlier version: Research Square (rs-6397317/v1), per the paper's header note
-- Verified against source: 2026-07-19, against the arXiv v1 PDF; section, table,
-  and figure numbering follows that rendering
+- Verified against source: 2026-07-20, against the arXiv v1 PDF; section, table,
+  and figure numbering follows that rendering. Prior verification: 2026-07-19
+  (corrections itemized below).
 - Tier budget convention: 150 words of prose per tier, bracketed locators
   excluded from the count. All five tiers are exactly 150 under that rule, so
   density is the only variable across the chain.
 - Revisions or errata noticed since: none in the source
+- **Re-verification on 2026-07-20**, source-first against arXiv:2508.01581v1:
+  every T1–T5 claim, the entity-ledger locators, the Key-results table, the
+  Table 1 OLS figures, the Table 2 spline figures, the Table 3 tier
+  descriptives, both R² values (0.217 OLS / 0.297 spline), the three-level
+  tier collapse (5-star distinct; 4-star ≈ 3-star; 2-star ≈ 1-star with 1-star
+  marginally higher on both measures), and the absence of any
+  adaptable-vs-non-adaptable statistic were all reconfirmed at the source. No
+  discrepancies found; verification date refreshed only.
 - **Corrections applied to this note on 2026-07-19**, all source-first:
   1. The headline finding was misstated across all five tiers as "adaptable
      agents beat static ones, but the benefit shrinks as complexity rises." The
